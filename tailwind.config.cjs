@@ -18,7 +18,8 @@ module.exports = {
       backgroundImage : {
         slide1 : 'url(./public/slide.png)',
         slide2 : 'url(./public/slide2.png)',
-        slide3 : 'url(./public/slide3.png)'
+        slide3 : 'url(./public/slide3.png)',
+        'poker-bg' : 'url(./public/poker.png)',
       }
     },
   },
