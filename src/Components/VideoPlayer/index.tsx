@@ -3,9 +3,6 @@ import React from 'react';
 import { DefaultUi, Player, Youtube } from "@vime/react";
 
 import '@vime/core/themes/default.css'
-
-import Vimeo from '@u-wave/react-vimeo';
-
 export function VideoPlayer() {
 
 const videoURL = "_oTGFD10Ngs"
