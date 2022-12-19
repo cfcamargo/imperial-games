@@ -1,14 +1,18 @@
 import { FacebookLogo, InstagramLogo, MapPin, WhatsappLogo } from "phosphor-react";
+import { useTranslation } from "react-i18next";
 import Logo from '../../assets/logo.png'
 
 export function Footer(){
+
+  const { t } = useTranslation()
+
   return (
     <>
     <footer className="containeer">
         <div className="flex xs:flex-col md:flex-row gap-2 justify-between">
           <div className="w-full flex flex-col justify-center">
             <h3 className="flex flex-col gap-2 justify-center items-start text-dark-yellow text-3xl">
-              Contactos
+              {t('footer.contact')}
             </h3>
 
             <div className="flex flex-col gap-4 mt-10 justify-center">
@@ -41,8 +45,8 @@ export function Footer(){
     </footer>
     <div className="pt-32 pb-10 items-center border-b-2 border-dark-yellow">
       <div className="containeer flex xs:flex-col md:flex-row justify-between">
-        <div className="flex flex-col xs:items-center text-sm text-dark-yellow">
-          <span className="xs:text-center md:text-left">Imperial Games  Casino - Todos os direitos reservados</span>
+        <div className="flex flex-col xs:items-center md:items-start text-sm text-dark-yellow">
+          <span className="xs:text-center md:text-left">Imperial Games  Casino - {t("footer.copy")}</span>
           <span>2022</span>
         </div>
 
