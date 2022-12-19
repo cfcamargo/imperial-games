@@ -17,11 +17,11 @@ export function Poker(){
 
       <div className="containeer pt-20">
         <div className="w-full flex xs:flex-col md:flex-row gap-">
-          <div className='flex justify-start'>
+          <div className='flex xs:justify-center md:justify-start'>
             <img src={poker1}/>
           </div>
 
-          <div className='flex flex-col gap-6 justify-center xs:items-center md:items-end xs:mt-10 md:mt-0 xs:pl-0 md:pl-10'>
+          <div className='w-full md:justify-end flex flex-col gap-6 xs:justify-center xs:items-center md:items-end xs:mt-10 md:mt-0 xs:pl-0 md:pl-10'>
             <h3 className='text-2xl text-dark-yellow font-bold xs:text-center md:text-right'>
              {t("poker.title")}
             </h3>
@@ -32,18 +32,18 @@ export function Poker(){
             </p>
 
             <p className='w-full max-w-[400px] xs:text-center md:text-right text-white'>
-            OMAHA : {t("poker.omaha")}
+              {t("poker.omaha")}
             </p>
           </div>
         </div>
         <div className="w-full grid xs:grid-cols-1 md:grid-cols-2 mt-4">
-          <div className='flex flex-col gap-6 justify-center items-start'>
-            <p className='w-full max-w-[400px] text-left text-white'>
+          <div className='flex flex-col gap-6 justify-center xs:items-center md:items-start'>
+            <p className='w-full max-w-[400px] xs:text-center md:text-left text-white'>
               {t("poker.resume")}
             </p>
           </div>
 
-          <div className='flex justify-end xs:mt-10 md:mt-0'>
+          <div className='flex xs:justify-center md:justify-end xs:mt-10 md:mt-0'>
             <img src={poker2}/>
           </div>
         </div>

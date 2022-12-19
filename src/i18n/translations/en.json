@@ -1,0 +1,39 @@
+{
+  "translation": {
+     "menu": {
+      "home" : "Home",
+      "about" : "About",
+      "machines" : "Machines",
+      "contact" : "Contact"
+    },
+    "about" : {
+      "title" : "The Imperial Casino",
+      "missionTitle" : "Mission",
+      "missionText" : "Bring the best experiences for those who want to have fun and try their luck."
+    },
+    "machines" : {
+      "title" : "Our Machines",
+      "text1" : "State-of-the-art machines with a wide range of options, you will always have the security of having fun playing in our casino. We put all our energy into offering the best possible service, and we are continuously improving our management system to guarantee you the best service and meet all your expectations.",
+      "text2" : "In addition to providing you with the best state-of-the-art machines, we constantly develop our facilities so that you have the most comfortable environment and a friendly service where you can choose from an immense variety of options and different promotions, including CHOPP FREE for all our clients to turn your experience more special and fun",
+
+      "carouselTitle" : "Huge number of options",
+      "carouselText" : "The best reason to visit us is the cozy atmosphere and excellent service. You can take your first steps in our machines, some of them being our so famous BINGO AND ROLLER machines AND THE SO ACCLAIMED LINK KING"
+    },
+    "poker" : {
+      "title" : "THE BEST POKER ON THE BORDER IS HERE",
+      "subtitle": "POQUER",
+      "texasHolden": "Texas Holden: It is a card game for two or more players, in which each one receives two cards and can win each round of bets with the best combination of them.",
+      "omaha" : "OMAHA : Game of 5 cards where each player wins with the best game combination",
+
+      "resume" : "IMPERIAL GAMES Offers the best cash game table on the border with an initial jackpot of R$ 100 And our omaha is from 5 to 25 locked at the dealer It is also the only cash game table that offers an accumulated jackpot that grows day by day"
+    },
+    "apostas" : {
+      "title" : "Find here the best sports betting",
+      "text" : "If you are an experienced gambler or are entering this world now, don't worry, CASINO IMPERIAL is the best place. We offer the most diverse options in sports betting, you decide who you want to bet on."
+    },
+    "footer" : {
+      "contact" : "Contact",
+      "copy" : "All rights reserved"
+    }
+  }
+}
