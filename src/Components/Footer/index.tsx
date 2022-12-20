@@ -2,9 +2,10 @@ import { FacebookLogo, InstagramLogo, MapPin, WhatsappLogo } from "phosphor-reac
 import { useTranslation } from "react-i18next";
 import Logo from '../../assets/logo.png'
 
-export function Footer(){
+import { FormattedMessage } from 'react-intl';
 
-  const { t } = useTranslation()
+
+export function Footer(){
 
   return (
     <>
@@ -12,7 +13,7 @@ export function Footer(){
         <div className="flex xs:flex-col md:flex-row gap-2 justify-between">
           <div className="w-full flex flex-col justify-center">
             <h3 className="flex flex-col gap-2 justify-center items-start text-dark-yellow text-3xl">
-              {t('footer.contact')}
+              <FormattedMessage id="footer-contact"/>
             </h3>
 
             <div className="flex flex-col gap-4 mt-10 justify-center">
@@ -46,7 +47,7 @@ export function Footer(){
     <div className="pt-32 pb-10 items-center border-b-2 border-dark-yellow">
       <div className="containeer flex xs:flex-col md:flex-row justify-between">
         <div className="flex flex-col xs:items-center md:items-start text-sm text-dark-yellow">
-          <span className="xs:text-center md:text-left">Imperial Games  Casino - {t("footer.copy")}</span>
+          <span className="xs:text-center md:text-left">Imperial Games  Casino - <FormattedMessage id="footer-copy"/></span>
           <span>2022</span>
         </div>
 

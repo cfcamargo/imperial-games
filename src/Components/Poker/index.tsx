@@ -2,10 +2,10 @@ import { useTranslation } from 'react-i18next'
 import poker1 from '../../assets/poker1.png'
 import poker2 from '../../assets/poker2.png'
 
+import { FormattedMessage } from 'react-intl';
+
+
 export function Poker(){
-
-  const { t } = useTranslation()
-
   return (
     <section id="poker" className='py-10'>
 
@@ -23,23 +23,25 @@ export function Poker(){
 
           <div className='w-full md:justify-end flex flex-col gap-6 xs:justify-center xs:items-center md:items-end xs:mt-10 md:mt-0 xs:pl-0 md:pl-10'>
             <h3 className='text-2xl text-dark-yellow font-bold xs:text-center md:text-right'>
-             {t("poker.title")}
+             <FormattedMessage id="poker-title"/>
             </h3>
 
-            <h4 className='text-dark-yellow'>{t("poker.subtitle")}</h4>
+            <h4 className='text-dark-yellow'>
+              <FormattedMessage id="poker-subtitle"/>  
+            </h4>
             <p className='w-full max-w-[400px] xs:text-center md:text-right text-white'>
-              {t("poker.texasHolden")}
+              <FormattedMessage id="poker-texasHolden"/>
             </p>
 
             <p className='w-full max-w-[400px] xs:text-center md:text-right text-white'>
-              {t("poker.omaha")}
+              <FormattedMessage id="poker-omaha"/>
             </p>
           </div>
         </div>
         <div className="w-full grid xs:grid-cols-1 md:grid-cols-2 mt-4">
           <div className='flex flex-col gap-6 justify-center xs:items-center md:items-start'>
             <p className='w-full max-w-[400px] xs:text-center md:text-left text-white'>
-              {t("poker.resume")}
+              <FormattedMessage id="poker-resume"/>
             </p>
           </div>
 
