@@ -1,8 +1,6 @@
 import Logo from '../../assets/logo.png';
 import { Squash as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-
 import { FormattedMessage } from 'react-intl';
 import { LanguageSwitcher } from '../languageSwitcher';
 
