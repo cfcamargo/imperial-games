@@ -10,7 +10,6 @@ export function Header(){
 
   window.addEventListener('resize', function () {
     var largura = window.innerWidth;
-    console.log(largura)
     if (largura > 765) 
       setOpen(false)
   });

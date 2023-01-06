@@ -35,9 +35,24 @@ export function MachineSlider() {
   return (
     <div>
       <Swiper
-        slidesPerView={3}
+      breakpoints={{
+        360: {
+          width: 360,
+          slidesPerView: 1,
+          slidesPerGroup : 1,
+        },
+        768: {
+          width: 768,
+          slidesPerView: 3,
+          slidesPerGroup : 3
+        },
+        1100: {
+          width: 1100,
+          slidesPerView: 3,
+          slidesPerGroup : 3
+        },
+      }}
         spaceBetween={20}
-        slidesPerGroup={3}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
@@ -49,8 +64,8 @@ export function MachineSlider() {
        {
         images.map((image)=>{
           return  (
-            <SwiperSlide>
-              <div className="h-[400px] flex justify-center items-center object-cover">
+            <SwiperSlide className="bg-[#091C1A]">
+              <div className="h-[400px] flex justify-center items-center object-cover bg-dark-green">
                 <img src={image}/>
               </div>
             </SwiperSlide>

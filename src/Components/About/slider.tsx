@@ -32,12 +32,43 @@ const sliderImages = [
 ]
 
 export function AboutSlider() {
+
+  let slider_per_vier = 3
+
+  window.addEventListener('resize', function () {
+    var largura = window.innerWidth;
+    console.log(largura)
+    console.log(slider_per_vier)
+    if(largura > 1200){
+      slider_per_vier = 3
+    } else if(largura < 760) {
+      slider_per_vier = 2
+    } else if(largura < 360) {
+      slider_per_vier = 1
+    }
+  });
+
   return (
     <div>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={20}
-        slidesPerGroup={3}
+        breakpoints={{
+          360: {
+            width: 360,
+            slidesPerView: 1,
+            slidesPerGroup : 1,
+          },
+          768: {
+            width: 768,
+            slidesPerView: 3,
+            slidesPerGroup : 3
+          },
+          1100: {
+            width: 1100,
+            slidesPerView: 3,
+            slidesPerGroup : 3
+          },
+        }}
+        spaceBetween={25}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
@@ -49,9 +80,9 @@ export function AboutSlider() {
         {
           sliderImages.map((image)=>{
             return (
-              <SwiperSlide>
+              <SwiperSlide className="bg-[#091C1A] flex justify-center">
                 <div className="h-[500px] flex justify-center items-center object-cover">
-                  <img src={image}/>
+                  <img src={image} />
                 </div>
               </SwiperSlide>
             )
