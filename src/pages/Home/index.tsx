@@ -12,7 +12,7 @@ export function Home() {
   return (
     <>
       <Header/>
-      <main className="mt-[80px]">
+      <main>
         <Banner />
         <About />
         <DivisorLine />
