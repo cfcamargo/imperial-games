@@ -58,7 +58,7 @@ export function Banner() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slide3 bg-cover bg-center'>
+          <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slide4 bg-cover bg-center'>
             <div className='w-full h-full bg-black bg-opacity-80 flex items-center justify-center flex-col gap-4'>
               <div className="containeer flex items-center justify-center flex-col gap-4">
                 <h2 className='text-dark-yellow text-5xl font-bold uppercase'><FormattedMessage id="banner4-title"/></h2>

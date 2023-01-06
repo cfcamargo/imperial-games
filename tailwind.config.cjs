@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,tsx,ts}"],
   theme: {
@@ -16,10 +17,11 @@ module.exports = {
         'xs': '360px'
       },
       backgroundImage : {
-        slide1 : 'url(./public/slide.png)',
-        slide2 : 'url(./public/slide2.png)',
-        slide3 : 'url(./public/slide3.png)',
-        'poker-bg' : 'url(./public/poker-cover.png)',
+        slide1 : 'url(/slide.png)',
+        slide2 : 'url(/slide2.png)',
+        slide3 : 'url(/slide3.png)',
+        slide4 : 'url(/slide4.png)',
+        'poker-bg' : 'url(/poker-cover.png)',
       }
     },
   },
