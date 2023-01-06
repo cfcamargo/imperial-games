@@ -5,7 +5,7 @@ import { DefaultUi, Player, Youtube } from "@vime/react";
 import '@vime/core/themes/default.css'
 export function VideoPlayer() {
 
-const videoURL = "_oTGFD10Ngs"
+const videoURL = "3QHPHi0YlY8"
 
   return (
     <div className="flex-1">
