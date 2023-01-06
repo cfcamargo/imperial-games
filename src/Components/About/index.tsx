@@ -1,13 +1,11 @@
 import '@vime/core/themes/default.css';
-import { useTranslation } from 'react-i18next';
+
 import { FormattedMessage } from 'react-intl';
 import { VideoPlayer } from '../VideoPlayer';
 import { AboutSlider } from './slider';
 
 
 export function About(){
-
-  const { t } = useTranslation()
 
   return (
     <section id="about">

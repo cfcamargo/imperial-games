@@ -13,7 +13,7 @@ export function Machines() {
     <section id="machines" className="containeer py-20">
       <div className="w-full grid xs:grid-cols-1 md:grid-cols-2">
         <div className="flex xs:justify-center md:justify-start">
-          <img src={Machine1} />
+          <img src={Machine1} className="max-w-[450px]"/>
         </div>
 
         <div className="flex flex-col gap-6 justify-center xs:items-center md:items-end">
@@ -34,7 +34,7 @@ export function Machines() {
         </div>
 
         <div className="flex xs:justify-center md:justify-end xs:mt-10 md:mt-0">
-          <img src={Machine2} />
+          <img src={Machine2} className="max-w-[450px]" />
         </div>
       </div>
 

@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next'
 import poker1 from '../../assets/poker1.png'
 import poker2 from '../../assets/poker2.png'
 
@@ -16,9 +15,9 @@ export function Poker(){
       </div>
 
       <div className="containeer pt-20">
-        <div className="w-full flex xs:flex-col md:flex-row gap-">
+        <div className="w-full flex xs:flex-col md:flex-row items-center gap-">
           <div className='flex xs:justify-center md:justify-start'>
-            <img src={poker1}/>
+            <img src={poker1} className="max-w-[450px]"/>
           </div>
 
           <div className='w-full md:justify-end flex flex-col gap-6 xs:justify-center xs:items-center md:items-end xs:mt-10 md:mt-0 xs:pl-0 md:pl-10'>
@@ -46,7 +45,7 @@ export function Poker(){
           </div>
 
           <div className='flex xs:justify-center md:justify-end xs:mt-10 md:mt-0'>
-            <img src={poker2}/>
+            <img src={poker2} className="max-w-[450px]"/>
           </div>
         </div>
       </div>

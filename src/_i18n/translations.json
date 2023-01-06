@@ -27,7 +27,21 @@
     "apostas-text" : "Si usted es un apostador de experiencia o esta entrando en este mundo ahora, no se preocupe, CASINO IMPERIAL es el mejor lugar. Ofrecemos la mas diversa de opciones en apuestas deportivas, usted decide en quien quiere apostar.",
   
     "footer-contact" : "Contacto",
-    "footer-copy" : "Todos los derechos reservados"
+    "footer-copy" : "Todos los derechos reservados",
+
+    "banner1-title" : "La suerte esta aqui",
+    "banner1-text" : "La mejor mesa de cash game en la frontera",
+
+    "banner2-title" : "Las máquinas más deseadas",
+    "banner2-text" : "Disponemos de una amplia gama de máquinas, Siempre buscando novedades.",
+    "banner2-text2" : "Ven a probar tu suerte",
+
+    "banner3-title" : "Póquer todos los días",
+    "banner3-text" : "Para los amantes del buen poquer, tenemos poquer todos los días, con grandes premios, un ambiente discreto y las mejores apuestas.",
+
+    "banner4-title" : "APUESTAS DEPORTIVAS",
+    "banner4-text" : "PARA USTEDES ENAMORADOS DEL DEPORTE, VEN SÚMATE A TU PASIÓN LA SUERTE, Y GANA DINERO CON TUS ADIVINADAS"
+
   },
   "en-US": {
      "menu-home" : "Home",
@@ -57,7 +71,20 @@
      "apostas-text" : "If you are an experienced gambler or are entering this world now, don't worry, CASINO IMPERIAL is the best place. We offer the most diverse options in sports betting, you decide who you want to bet on.",
 
      "footer-contact" : "Contact",
-     "footer-copy" : "All rights reserved"
+     "footer-copy" : "All rights reserved",
+
+     "banner1-title" : "Luck is here",
+     "banner1-text" : "The best cash game table on the frontier",
+
+     "banner2-title" : "Most Wanted Machines",
+     "banner2-text" : "We have a wide range of machines, always looking for news.",
+     "banner2-text2" : "Come test your luck",
+
+     "banner3-title" : "Poker every day",
+     "banner3-text" : "For you lovers of good poker, we have poker every day, with great prizes, a discreet environment, and the best bets.",
+
+     "banner4-title" : "Sports Betting",
+     "banner4-text" : "For you, passionate about the sport, how about combining your passion with your luck, and earn some extra money"
 },
   "pt-BR": {
      "menu-home" : "Home",
@@ -88,7 +115,20 @@
      "apostas-text" : "Se você é um jogador experiente ou está entrando neste mundo agora, não se preocupe, o CASINO IMPERIAL é o melhor lugar. Oferecemos as mais diversas opções em apostas esportivas, você decide em quem quer apostar.",
 
      "footer-contact" : "Contato",
-     "footer-copy" : "Todos os direitos reservados."
+     "footer-copy" : "Todos os direitos reservados.",
+
+    "banner1-title" : "A Sorte esta aqui",
+    "banner1-text" : "A melhor mesa de cash game da fronteira",
+
+    "banner2-title" : "As Máquinas mais desejadas",
+    "banner2-text" : "Contamos com um vasta gama de maquinas, Sempre buscando novidades.",
+    "banner2-text2" : "Venha testar sua sorte",
+
+    "banner3-title" : "Poquer Todos os dias",
+    "banner3-text" : "Pra você amante de um bom poquer, Temos poquer todos os dias, com ótimas premiações, um ambiente discreto, e as melhores apostas.",
+
+    "banner4-title" : "Apostas Esportivas",
+    "banner4-text" : "Para você, apaixonado pelo esporte, que tal unir sua paixão com sua sorte, e ganhar um dinheiro extra"
 
 }
 }
