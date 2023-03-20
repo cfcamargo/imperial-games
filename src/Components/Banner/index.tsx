@@ -26,10 +26,20 @@ export function Banner() {
         className="mySwiper"
       >
         <SwiperSlide>
+          <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slideportada bg-cover bg-center'>
+
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
           <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slide1 bg-cover bg-center'>
             <div className='w-full h-full bg-black bg-opacity-80 flex items-center justify-center flex-col gap-4'>
-              <p className='text-light-yellow xs:text-sm md:text-lg'><FormattedMessage id="banner1-text"/></p>
-              <h2 className='text-dark-yellow xs:text-3xl md:text-5xl font-bold uppercase'><FormattedMessage id="banner1-title"/></h2>
+              <p className='text-light-yellow xs:text-sm md:text-lg'>
+                <FormattedMessage id="banner1-text"/>
+              </p>
+              <h2 className='text-dark-yellow xs:text-3xl md:text-5xl font-bold uppercase'>
+                <FormattedMessage id="banner1-title"/>
+              </h2>
             </div>
           </div>
         </SwiperSlide>
@@ -50,8 +60,12 @@ export function Banner() {
           <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slide3 bg-cover bg-center'>
             <div className='w-full h-full bg-black bg-opacity-80 flex items-center justify-center flex-col gap-4'>
               <div className="containeer flex xs:items-center md:items-end justify-center flex-col gap-4">
-                <h2 className='text-dark-yellow xs:text-2xl md:text-5xl font-bold uppercase '><FormattedMessage id="banner3-title"/></h2>
-                <p className='text-light-yellow xs:text-center md:text-right xs:max-w-[300px] md:max-w-[600px] xs:text-sm md:text-lg'><FormattedMessage id="banner3-text"/></p>
+                <h2 className='text-dark-yellow xs:text-2xl md:text-5xl font-bold uppercase '>
+                  <FormattedMessage id="banner3-title"/>
+                </h2>
+                <p className='text-light-yellow xs:text-center md:text-right xs:max-w-[300px] md:max-w-[600px] xs:text-sm md:text-lg'>
+                  <FormattedMessage id="banner3-text"/>
+                </p>
               </div>
             </div>
           </div>
@@ -61,8 +75,12 @@ export function Banner() {
           <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slide4 bg-cover bg-center'>
             <div className='w-full h-full bg-black bg-opacity-80 flex items-center justify-center flex-col gap-4'>
               <div className="containeer flex items-center justify-center flex-col gap-4">
-                <h2 className='text-dark-yellow xs:text-2xl md:text-5xl font-bold uppercase'><FormattedMessage id="banner4-title"/></h2>
-                <p className='text-light-yellow xs:text-sm md:text-lg'><FormattedMessage id="banner4-text"/></p>
+                <h2 className='text-dark-yellow xs:text-2xl md:text-5xl font-bold uppercase'>
+                  <FormattedMessage id="banner4-title"/>
+                </h2>
+                <p className='text-light-yellow xs:text-sm md:text-lg'>
+                  <FormattedMessage id="banner4-text"/>
+                </p>
               </div>
             </div>
           </div>

@@ -4,28 +4,28 @@
     "menu-about" : "Sobre",
     "menu-machines" : "Maquinas",
     "menu-contact" : "Contacto",
-  
+
     "about-title" : "El Imperial Casino",
     "about-missionTitle" : "Missión",
     "about-missionText" : "Traer las mejores experiencias para aquellos que quieran divertirse y probar su suerte.",
-  
+
     "machines-title" : "Nuestras Máquinas",
     "machines-text1" : "Máquinas de última generación con amplia gama de opciones, usted siempre tendra la seguridad de divertirse jugando en nuestro casino Colocamos toda nuestra energía para ofrecer el mejor servicio posible, y estamos mejorando continuamente nuestro sistema de gerenciamiento para garantirle el mejor atendimiento y llenar todas sus expectativas.",
     "machines-text2" : "Ademas de brindarle las mejores máquinas de ultima generación, desenvolvemos constantemente nuestras instalaciones para que usted tenga el ambiente mas confortable y un servicio amigable donde pueda escoger entre una variedad inmensa de opciones y diferentes promociones, incluyendo CHOPP FREE para todos nuestros clientes para tornar su experiencia mas especial y divertida",
-  
+
     "machines-carouselTitle" : "Inmenso numero de opciones",
     "machines-carouselText" : "El mejor motivo para visitarnos es el ambiente acogedor y el excelente servicio. Usted puede dar sus primeros pasos en nuestras maquinas, siendo algunas de ellas nuestras tan famosas maquinas de BINGO Y RODILLO Y LAS TAN ACLAMADAS LINK KING",
-  
+
     "poker-title" : "EL MEJOR POKER DE LA FRONTERA SE ENCUENTRA AQUI",
     "poker-subtitle": "POQUER",
     "poker-texasHolden": "Texas Holden: Es un juego de cartas para dos o mas jugadores, en el cual cada uno recibe dos cartas y puede ganar cada rodada de apuestas con la mejor combinacion de ellas.",
     "poker-omaha" : "OMAHA : Juego de 5 cartas donde cada jugador gana con la mejor combinación de juego",
-  
+
     "poker-resume" : "IMPERIAL GAMES Ofrece la mejor mesa de cash game de la frontera con un cacife inicial de R$ 100 Y nuestro omaha es de 5 a 25 trabado en el dealer Tambien es la unica mesa de cash de ofrece un pozo acumulado que crece dia a dia",
-  
+
     "apostas-title" : "Encuentre aca las mejores apostas deportivas",
     "apostas-text" : "Si usted es un apostador de experiencia o esta entrando en este mundo ahora, no se preocupe, CASINO IMPERIAL es el mejor lugar. Ofrecemos la mas diversa de opciones en apuestas deportivas, usted decide en quien quiere apostar.",
-  
+
     "footer-contact" : "Contacto",
     "footer-copy" : "Todos los derechos reservados",
 
@@ -40,7 +40,11 @@
     "banner3-text" : "Para los amantes del buen poquer, tenemos poquer todos los días, con grandes premios, un ambiente discreto y las mejores apuestas.",
 
     "banner4-title" : "APUESTAS DEPORTIVAS",
-    "banner4-text" : "PARA USTEDES ENAMORADOS DEL DEPORTE, VEN SÚMATE A TU PASIÓN LA SUERTE, Y GANA DINERO CON TUS ADIVINADAS"
+    "banner4-text" : "PARA USTEDES ENAMORADOS DEL DEPORTE, VEN SÚMATE A TU PASIÓN LA SUERTE, Y GANA DINERO CON TUS ADIVINADAS",
+
+    "new-title" : "Próximamente nueva máquina",
+    "new-text-1": "A partir del día 24/03 tendremos nueva máquina",
+    "new-text-2": "Ven a conocer, diviértete y prueba tu suerte"
 
   },
   "en-US": {
@@ -84,7 +88,11 @@
      "banner3-text" : "For you lovers of good poker, we have poker every day, with great prizes, a discreet environment, and the best bets.",
 
      "banner4-title" : "Sports Betting",
-     "banner4-text" : "For you, passionate about the sport, how about combining your passion with your luck, and earn some extra money"
+     "banner4-text" : "For you, passionate about the sport, how about combining your passion with your luck, and earn some extra money",
+
+     "new-title" : "New Coming!",
+    "new-text-1": "From the 24/03th We will have a new machine",
+    "new-text-2": "Come see the news, have fun, and test your luck"
 },
   "pt-BR": {
      "menu-home" : "Home",
@@ -128,7 +136,11 @@
     "banner3-text" : "Pra você amante de um bom poquer, Temos poquer todos os dias, com ótimas premiações, um ambiente discreto, e as melhores apostas.",
 
     "banner4-title" : "Apostas Esportivas",
-    "banner4-text" : "Para você, apaixonado pelo esporte, que tal unir sua paixão com sua sorte, e ganhar um dinheiro extra"
+    "banner4-text" : "Para você, apaixonado pelo esporte, que tal unir sua paixão com sua sorte, e ganhar um dinheiro extra",
+
+    "new-title" : "Novidade Chegando !",
+    "new-text-1": "A Partir do dia 24/03 Contaremos com uma máquina nova",
+    "new-text-2": "Venha conhecer a novidade, se divertir, e testar sua sorte"
 
 }
 }

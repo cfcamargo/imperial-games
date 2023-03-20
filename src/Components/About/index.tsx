@@ -1,5 +1,3 @@
-import '@vime/core/themes/default.css';
-
 import { FormattedMessage } from 'react-intl';
 import { VideoPlayer } from '../VideoPlayer';
 import { AboutSlider } from './slider';
@@ -14,7 +12,7 @@ export function About(){
           <FormattedMessage id="about-title"/>
         </h3>
         <div className='my-20'>
-          <VideoPlayer />
+          <VideoPlayer videoURL='https://www.youtube.com/watch?v=3QHPHi0YlY8'/>
         </div>
 
         <div>
