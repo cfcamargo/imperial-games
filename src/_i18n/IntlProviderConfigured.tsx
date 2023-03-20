@@ -1,11 +1,11 @@
 import React from 'react';
-import { addLocaleData, IntlProvider } from 'react-intl'
-import pt from 'react-intl/locale-data/pt'
+import { IntlProvider } from 'react-intl'
+// import pt from 'react-intl/locale-data/pt'
 import translations from './translations.json'
 
 
 // Setup dados de localização por idioma
-addLocaleData([...pt])
+// addLocaleData([...pt])
 
 
 const LANGUAGES = {

@@ -20,7 +20,7 @@ import "./slide.css";
 
 const images = [
   img1,
-  img2, 
+  img2,
   img3,
   img4,
   img5,
@@ -64,7 +64,7 @@ export function MachineSlider() {
        {
         images.map((image)=>{
           return  (
-            <SwiperSlide className="bg-[#091C1A]">
+            <SwiperSlide className="bg-[#091C1A]" key={image}>
               <div className="h-[400px] flex justify-center items-center object-cover bg-dark-green">
                 <img src={image}/>
               </div>

@@ -17,6 +17,7 @@ module.exports = {
         'xs': '360px'
       },
       backgroundImage : {
+        slideportada: 'url(/portada.jpg)',
         slide1 : 'url(/slide.png)',
         slide2 : 'url(/slide2.png)',
         slide3 : 'url(/slide3.png)',

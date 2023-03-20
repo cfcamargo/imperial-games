@@ -80,7 +80,7 @@ export function AboutSlider() {
         {
           sliderImages.map((image)=>{
             return (
-              <SwiperSlide className="bg-[#091C1A] flex justify-center">
+              <SwiperSlide className="bg-[#091C1A] flex justify-center" key={image}>
                 <div className="h-[500px] flex justify-center items-center object-cover">
                   <img src={image} />
                 </div>
@@ -88,7 +88,7 @@ export function AboutSlider() {
             )
           })
         }
-        
+
       </Swiper>
     </div>
   )
