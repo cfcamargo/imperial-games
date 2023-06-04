@@ -42,9 +42,10 @@
     "banner4-title" : "APUESTAS DEPORTIVAS",
     "banner4-text" : "PARA USTEDES ENAMORADOS DEL DEPORTE, VEN SÚMATE A TU PASIÓN LA SUERTE, Y GANA DINERO CON TUS ADIVINADAS",
 
-    "new-title" : "Próximamente nueva máquina",
-    "new-text-1": "A partir del día 24/03 tendremos nueva máquina",
-    "new-text-2": "Ven a conocer, diviértete y prueba tu suerte"
+    "banner-new-title" : "Nuevas máquinas disponible",
+    "banner-new-text-1": "Presentamos con entusiasmo las últimas incorporaciones a nuestro casino: las increíbles máquinas Link King, un juego multiprogresivo que llevará su experiencia de juego a un nuevo nivel. Prepárate para maravillarte con los impresionantes gráficos, las características innovadoras y la oportunidad de ganar premios increíbles. ",
+
+    "news-container-title" : "Novedades"
 
   },
   "en-US": {
@@ -90,9 +91,10 @@
      "banner4-title" : "Sports Betting",
      "banner4-text" : "For you, passionate about the sport, how about combining your passion with your luck, and earn some extra money",
 
-     "new-title" : "New Coming!",
-    "new-text-1": "From the 24/03th We will have a new machine",
-    "new-text-2": "Come see the news, have fun, and test your luck"
+     "banner-new-title" : "New machines available",
+     "banner-new-text-1": "We enthusiastically introduce the latest additions to our casino: the amazing Link King machines, a multi-progressive game that will take your gaming experience to a new level. Get ready to marvel at stunning graphics, innovative features, and the chance to win amazing prizes.",
+
+     "news-container-title" : "News"
 },
   "pt-BR": {
      "menu-home" : "Home",
@@ -138,9 +140,10 @@
     "banner4-title" : "Apostas Esportivas",
     "banner4-text" : "Para você, apaixonado pelo esporte, que tal unir sua paixão com sua sorte, e ganhar um dinheiro extra",
 
-    "new-title" : "Novidade Chegando !",
-    "new-text-1": "A Partir do dia 24/03 Contaremos com uma máquina nova",
-    "new-text-2": "Venha conhecer a novidade, se divertir, e testar sua sorte"
+    "banner-new-title" : "Novidades já disponíveis",
+    "banner-new-text-1": "Apresentamos com entusiasmo as mais recentes adições ao nosso cassino: as incríveis máquinas Link King, um jogo multiprogressivo que vai levar a sua experiência de jogo a um novo nível. Prepare-se para se maravilhar com gráficos impressionantes, recursos inovadores e a chance de ganhar prêmios incríveis. ",
+
+    "news-container-title" : "Novidades"
 
 }
 }

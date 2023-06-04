@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage : {
         slideportada: 'url(/portada.jpg)',
+        machinenew: 'url(/machine-new.png)',
         slide1 : 'url(/slide.png)',
         slide2 : 'url(/slide2.png)',
         slide3 : 'url(/slide3.png)',
