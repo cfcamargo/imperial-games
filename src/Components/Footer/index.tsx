@@ -23,7 +23,7 @@ export function Footer(){
               </a>
               <a href="https://www.facebook.com/casinoimperialoficial" className="flex gap-2 items-center">
                 <FacebookLogo size={32} weight="bold" color="#FDD708"/>
-                <span className="text-dark-yellow">Casino Imperial Games</span>  
+                <span className="text-dark-yellow">Imperial Games</span>  
               </a>
               <a href="https://api.whatsapp.com/send/?phone=595975290486&text&type=phone_number&app_absent=0" className="flex gap-2 items-center">
                 <WhatsappLogo size={32} weight="bold" color="#FDD708"/>
@@ -47,7 +47,7 @@ export function Footer(){
     <div className="pt-32 pb-10 items-center border-b-2 border-dark-yellow">
       <div className="containeer flex xs:flex-col md:flex-row justify-between">
         <div className="flex flex-col xs:items-center md:items-start text-sm text-dark-yellow">
-          <span className="xs:text-center md:text-left">Imperial Games  Casino - <FormattedMessage id="footer-copy"/></span>
+          <span className="xs:text-center md:text-left">Imperial Games - <FormattedMessage id="footer-copy"/></span>
           <span>2022</span>
         </div>
 

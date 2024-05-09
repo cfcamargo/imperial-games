@@ -19,7 +19,7 @@ export function Home() {
         <About />
         <DivisorLine />
         <Machines />
-        <Poker />
+        {/* <Poker /> */}
         <DivisorLine />
         <Apostas />
         <Footer />

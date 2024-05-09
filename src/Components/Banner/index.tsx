@@ -68,7 +68,7 @@ export function Banner() {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slide3 bg-cover bg-center'>
             <div className='w-full h-full bg-black bg-opacity-80 flex items-center justify-center flex-col gap-4'>
               <div className="containeer flex xs:items-center md:items-end justify-center flex-col gap-4">
@@ -81,7 +81,7 @@ export function Banner() {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <div className='w-full h-[calc(100vh_-_80px)] flex justify-center items-center bg-slide4 bg-cover bg-center'>
